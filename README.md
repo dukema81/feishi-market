@@ -1,27 +1,23 @@
-# 飞市综合商城
+# 🛒 飞市综合商城
 
-> 万货上架 · 一步触达
+> 飞系电商系列 — 零依赖 Python+SQLite，桌面+手机PWA
 
-零依赖（Python 标准库 + SQLite）的 飞市，飞系电商系列成员。
+## ✨ 特性
 
-## 运行
+- 🪶 零依赖 — 纯 Python 标准库 + SQLite
+- 📱 响应式设计 — 桌面 + 手机 PWA
+- 🛍️ 多品类商品管理
+- 💳 完整购物流程
+- 📊 销售统计与分析
 
-```bash
-cd backend
-python server.py
-# 访问 http://127.0.0.1:8101/ ，三角色: admin/admin123 · ops01/ops123456 · view01/view123456
-```
-
-## 测试
+## 🚀 快速开始
 
 ```bash
-python -m pytest tests/ -q
+git clone https://github.com/dukema81/feishi-market.git
+cd feishi-market
+python main.py
 ```
 
-## 目录
+## 📄 许可证
 
-- backend/  通用引擎 engine.py + 规格 spec.json + 服务入口 server.py
-- frontend/ 原生 JS SPA（门店 + 统计 + 规格驱动后台）
-- tools/    专属 Logo（icon.svg）+ UI 巡检（ui_check.py，零依赖探活+截图）
-- docs/     建设方案
-- tests/    API 集成测试（真实起服务全链路断言）
+MIT License © 2026 Duke Martin
